@@ -1,0 +1,59 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "version": "0.0.0-beta.1",
+    "name": "peak-template"
+  },
+  "apps": [
+    {
+      "root": "webContent",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "tsconfig": "tsconfig.json",
+      "test": "test.ts",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "peak",
+      "mobile": false,
+      "styles": [
+        "styles.css"
+      ],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "scss",
+    "component": {},
+    "build": {
+      "preserveSymlinks": true
+    },
+    "spec": {
+      "class": false,
+      "component": false,
+      "directive": false,
+      "module": false,
+      "pipe": false,
+      "service": false
+    }
+  }
+}
