@@ -1,0 +1,14 @@
+.peak-header {
+  color: white;
+  margin: 8px 0;
+  position: relative;
+  &__logo {
+    margin: 0;
+    font-weight: 300;
+    &__title {
+      font-size: 39px;
+      top: 15px;
+      position: relative;
+    }
+  }
+}
