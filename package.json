@@ -5,7 +5,9 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
-    "build:dev": "ng build --dev",
+    "build:standard": "ng build --env=standard",
+    "build:premium": "ng build --env=premium",
+    "build:platinum": "ng build --env=platinum",
     "start": "ng serve --port 4200 --proxy-config proxy.config.js",
     "lint": "ng lint"
   },
