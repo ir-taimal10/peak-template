@@ -12,7 +12,6 @@ body, html {
     padding: 0;
     color: #212121;
     background: #f5f5f5;
-    background-image: url(/assets/images/warning.jpg);
     background-repeat: repeat-x;
     background-position: top;
     background-attachment: fixed;
