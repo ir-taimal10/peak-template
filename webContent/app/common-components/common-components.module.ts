@@ -5,7 +5,8 @@ import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {PeakIconCollectionComponent} from './peak-icon-collection/peak-icon-collection.component';
 import {HeaderComponent} from './header/header.component';
 import {PeakIconComponent} from "./peak-icon/peak-icon.component";
-import { AvatarComponent } from './avatar/avatar.component';
+import {AvatarComponent} from './avatar/avatar.component';
+import {ContentWrapperComponent} from './content-wrapper/content-wrapper.component';
 
 @NgModule({
     imports: [
@@ -17,7 +18,8 @@ import { AvatarComponent } from './avatar/avatar.component';
         HeaderComponent,
         PeakIconCollectionComponent,
         PeakIconComponent,
-        AvatarComponent
+        AvatarComponent,
+        ContentWrapperComponent
     ],
     declarations: [
         InternalServerErrorComponent,
@@ -25,7 +27,8 @@ import { AvatarComponent } from './avatar/avatar.component';
         HeaderComponent,
         PeakIconCollectionComponent,
         PeakIconComponent,
-        AvatarComponent
+        AvatarComponent,
+        ContentWrapperComponent
     ]
 })
 export class CommonComponentsModule {
