@@ -1,20 +1,25 @@
 /* ==========================================================================
    Colors
    ========================================================================== */
-$bzg-color-text-primary: #555555 !default;
-$bzg-color-text-secondary: #B7B7B7;
-$bzg-color-button-primary: #3a4d5a;
-$bzg-color-button-secondary: transparent;
-$bzg-color-danger: #D04454;
-$bzg-color-warning: #9F6000;
-$bzg-color-line: #DEDEDE;
-$bzg-color-background: #F8F8F8;
-$bzg-color-text-code: #165196;
+$peak-color-text-primary: #555555 !default;
+$peak-color-text-secondary: #B7B7B7;
+$peak-color-button-primary: #3a4d5a;
+$peak-color-button-secondary: transparent;
+$peak-color-danger: #D04454;
+$peak-color-warning: #9F6000;
+$peak-color-line: #DEDEDE;
+$peak-color-background: #F8F8F8;
+$peak-color-text-code: #165196;
 $white-color: #FFFFFF;
 $black-color: #000000;
 $error-tooltip-color: #E95E59 !default;
+$module-link-color-a: #de5b48;
+$module-link-color-b: #8ab132;
+$module-link-color-c: #f9c828;
+$module-link-color-d: #2aafc3;
+$module-link-color-e: #86cccc;
 
 /* ==========================================================================
    Dimensions
    ========================================================================== */
-$wrapper-min-height: 700;
+$wrapper-min-height: 800;

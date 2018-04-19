@@ -1,0 +1,37 @@
+@import '../app.variables.scss';
+
+.peak-dashboard-home {
+  .modules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__item-link {
+      margin: 16px;
+
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      cursor: pointer;
+      &__title {
+        color: white;
+        margin: 8px 0;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .--module-color-a{
+    background-color: $module-link-color-a;
+  }
+  .--module-color-b{
+    background-color: $module-link-color-b;
+  }
+  .--module-color-c{
+    background-color: $module-link-color-c;
+  }
+
+}

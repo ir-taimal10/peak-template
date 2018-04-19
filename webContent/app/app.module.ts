@@ -10,6 +10,7 @@ import {CommonComponentsModule} from "./common-components/common-components.modu
 import {DashboardBikeRentModule} from "./dashboard-bike-rent/dashboard-bike-rent.module";
 import {DashboardRouteModule} from "./dashboard-route/dashboard-route.module";
 import {DashboardRouteAssistanceModule} from "./dashboard-route-assistance/dashboard-route-assistance.module";
+import {DashboardHomeModule} from "./dashboard-home/dashboard-home.module";
 
 @NgModule({
     declarations: [
@@ -25,6 +26,7 @@ import {DashboardRouteAssistanceModule} from "./dashboard-route-assistance/dashb
             appRoutes,
             {useHash: true}
         ),
+        DashboardHomeModule,
         DashboardBikeRentModule,
         DashboardRouteModule,
         DashboardRouteAssistanceModule
