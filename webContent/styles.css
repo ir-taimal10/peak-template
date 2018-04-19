@@ -23,6 +23,14 @@ body, html {
     font-weight: 300;
 }
 
+.peak-title-2 {
+    text-align: center;
+}
+
+.peak-paragraph {
+    margin: 12% 4%;
+}
+
 /* cyrillic-ext */
 @font-face {
     font-family: 'Roboto';

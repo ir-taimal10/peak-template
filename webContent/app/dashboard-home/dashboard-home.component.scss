@@ -7,7 +7,7 @@
     justify-content: center;
     &__item-link {
       margin: 16px;
-
+      text-decoration: none;
       border-radius: 50%;
       height: 200px;
       width: 200px;
@@ -24,13 +24,13 @@
     }
   }
 
-  .--module-color-a{
+  .--module-color-a {
     background-color: $module-link-color-a;
   }
-  .--module-color-b{
+  .--module-color-b {
     background-color: $module-link-color-b;
   }
-  .--module-color-c{
+  .--module-color-c {
     background-color: $module-link-color-c;
   }
 
