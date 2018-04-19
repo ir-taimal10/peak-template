@@ -6,6 +6,7 @@
   },
   "apps": [
     {
+      "name": "standard",
       "root": "webContent",
       "outDir": "dist",
       "assets": [
@@ -26,10 +27,32 @@
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
-        "dev": "environments/environment.ts",
-        "standard": "environments/environment.standard.ts",
-        "premium": "environments/environment.premium.ts",
-        "platinum": "environments/environment.platinum.ts"
+        "dev": "environments/environment.ts"
+      }
+    },
+    {
+      "name": "platinum",
+      "root": "webContent",
+      "outDir": "dist",
+      "assets": [
+        "assets/**",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.platinum.ts",
+      "polyfills": "polyfills.ts",
+      "tsconfig": "tsconfig.json",
+      "test": "test.ts",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "peak",
+      "mobile": false,
+      "styles": [
+        "styles.css"
+      ],
+      "scripts": [],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts"
       }
     }
   ],

@@ -9,6 +9,8 @@
     "build:premium": "ng build --env=premium",
     "build:platinum": "ng build --env=platinum",
     "start": "ng serve --port 4200 --proxy-config proxy.config.js",
+    "start:platinum": "ng serve --app=platinum --port 4200 --proxy-config proxy.config.js",
+    "start:standard": "ng serve --app=standard --port 4200 --proxy-config proxy.config.js",
     "lint": "ng lint"
   },
   "private": true,

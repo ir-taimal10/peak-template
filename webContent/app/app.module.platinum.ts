@@ -5,10 +5,10 @@ import {HttpClientModule} from "@angular/common/http";
 import {AppComponent} from './app.component';
 import {RestApiModule} from "./rest-api/rest-api.module";
 import {RouterModule} from "@angular/router";
-import {appRoutes} from "./app.routes";
+import {appRoutes} from "./app.routes.platinum";
 import {CommonComponentsModule} from "./common-components/common-components.module";
-// import {DashboardBikeRentModule} from "./dashboard-bike-rent/dashboard-bike-rent.module";
-// import {DashboardRouteModule} from "./dashboard-route/dashboard-route.module";
+import {DashboardBikeRentModule} from "./dashboard-bike-rent/dashboard-bike-rent.module";
+import {DashboardRouteModule} from "./dashboard-route/dashboard-route.module";
 import {DashboardRouteAssistanceModule} from "./dashboard-route-assistance/dashboard-route-assistance.module";
 import {DashboardHomeModule} from "./dashboard-home/dashboard-home.module";
 
@@ -27,12 +27,12 @@ import {DashboardHomeModule} from "./dashboard-home/dashboard-home.module";
             {useHash: true}
         ),
         DashboardHomeModule,
-        // DashboardBikeRentModule,
-        // DashboardRouteModule,
+        DashboardBikeRentModule,
+        DashboardRouteModule,
         DashboardRouteAssistanceModule
     ],
     providers: [],
     bootstrap: [AppComponent]
 })
-export class AppModule {
+export class AppModulePlatinum {
 }
