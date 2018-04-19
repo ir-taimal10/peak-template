@@ -1,8 +1,25 @@
 <div class="peak-header">
-    <peak-icon [nameIcon]="'hamburger-menu'" [size]="32"></peak-icon>
+    <div class="peak-header__nav">
+        <peak-icon [nameIcon]="'hamburger-menu'" [size]="32"></peak-icon>
+        <div class="peak-header__user">
+            <span class="peak-header__user__full-name">Camilo Eduardo Chaparro</span>
+            <peak-avatar [fullName]="'Camilo Eduardo Chaparro'"></peak-avatar>
+        </div>
+
+    </div>
+
     <h1 class="peak-header__logo">
         <peak-icon [nameIcon]="'bike-11'" [size]="80"></peak-icon>
         <span class="peak-header__logo__title">Bici</span>
     </h1>
-    <peak-icon [nameIcon]="'home'" [size]="32"></peak-icon>
+    <div class="peak-header__breadcrumb">
+        <peak-icon class="peak-header__breadcrumb__home"
+                   [nameIcon]="'home'"
+                   [size]="32">
+        </peak-icon>
+        <peak-icon [nameIcon]="'next'"
+                   [size]="13">
+        </peak-icon>
+        <span class="peak-header__breadcrumb__link">Home Dashboard</span>
+    </div>
 </div>

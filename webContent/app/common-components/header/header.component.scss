@@ -2,13 +2,34 @@
   color: white;
   margin: 8px 0;
   position: relative;
+  &__user {
+    display: flex;
+    align-items: center;
+    &__full-name {
+      margin: 0 8px 0 0;
+    }
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+  }
   &__logo {
-    margin: 0;
     font-weight: 300;
+    margin: -16px 0 0 0;
     &__title {
       font-size: 39px;
       top: 15px;
       position: relative;
+    }
+  }
+  &__breadcrumb {
+    &__home {
+      position: relative;
+      top: -2px;
+    }
+    &__link {
+      position: relative;
+      top: 2px;
     }
   }
 }

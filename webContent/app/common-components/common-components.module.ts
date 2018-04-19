@@ -5,6 +5,7 @@ import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
 import {PeakIconCollectionComponent} from './peak-icon-collection/peak-icon-collection.component';
 import {HeaderComponent} from './header/header.component';
 import {PeakIconComponent} from "./peak-icon/peak-icon.component";
+import { AvatarComponent } from './avatar/avatar.component';
 
 @NgModule({
     imports: [
@@ -15,14 +16,16 @@ import {PeakIconComponent} from "./peak-icon/peak-icon.component";
         PageNotFoundComponent,
         HeaderComponent,
         PeakIconCollectionComponent,
-        PeakIconComponent
+        PeakIconComponent,
+        AvatarComponent
     ],
     declarations: [
         InternalServerErrorComponent,
         PageNotFoundComponent,
         HeaderComponent,
         PeakIconCollectionComponent,
-        PeakIconComponent
+        PeakIconComponent,
+        AvatarComponent
     ]
 })
 export class CommonComponentsModule {
